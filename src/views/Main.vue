@@ -8,6 +8,7 @@
         <el-header>
           <Header />
         </el-header>
+        <Tag></Tag>
         <el-main>
           <router-view></router-view>
         </el-main>
@@ -19,13 +20,15 @@
 <script>
 import Aside from '@/components/Aside.vue'
 import Header from '@/components/Header.vue'
+import Tag from '@/components/Tag.vue'
 export default {
   data() {
     return {}
   },
   components: {
     Aside,
-    Header
+    Header,
+    Tag
   }
 }
 </script>
